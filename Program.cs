@@ -7,9 +7,11 @@ namespace EmployeeWageProblemWithObject
         {
             //Console.WriteLine("Welcome to Employee Wage Computation Program ");
             //EmployeeCheck empcheck = new EmployeeCheck();
-            //.EmployeeAbsentOrPresent();
-            EmpyeeWage empwage = new EmpyeeWage();
-            empwage.CalculateEmpWage();
+            //empcheck.EmployeeAbsentOrPresent();
+            //EmpyeeWage empwage = new EmpyeeWage();
+            //empwage.CalculateEmpWage();
+            PartTimeWage partTimeWage = new PartTimeWage();
+            partTimeWage.CalEmpWage();
 
         }
     }
