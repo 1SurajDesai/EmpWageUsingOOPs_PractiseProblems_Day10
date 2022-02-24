@@ -14,8 +14,10 @@ namespace EmployeeWageProblemWithObject
             //partTimeWage.CalEmpWage();
             //EmpWageUsingSwitchCase empWageUsingSwitchCase = new EmpWageUsingSwitchCase();
             //empWageUsingSwitchCase.CalWageSwitchCase();
-            WageForMonth wageForMonth = new WageForMonth();
-            wageForMonth.CalWageOfMonth();
+            //WageForMonth wageForMonth = new WageForMonth();
+            //wageForMonth.CalWageOfMonth();
+            CalWageTillCondMeet calWageTillCondMeet = new CalWageTillCondMeet();
+            calWageTillCondMeet.CalWage();
 
         }
     }
