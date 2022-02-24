@@ -10,8 +10,10 @@ namespace EmployeeWageProblemWithObject
             //empcheck.EmployeeAbsentOrPresent();
             //EmpyeeWage empwage = new EmpyeeWage();
             //empwage.CalculateEmpWage();
-            PartTimeWage partTimeWage = new PartTimeWage();
-            partTimeWage.CalEmpWage();
+            //PartTimeWage partTimeWage = new PartTimeWage();
+            //partTimeWage.CalEmpWage();
+            EmpWageUsingSwitchCase empWageUsingSwitchCase = new EmpWageUsingSwitchCase();
+            empWageUsingSwitchCase.CalWageSwitchCase();
 
         }
     }
